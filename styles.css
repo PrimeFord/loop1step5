@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("./media/background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box {
+    width: 380px;
+    height: 420px;
+    background-color: white;
+    margin: auto ;
+    position: relative;
+    top: 5rem;
+    border-radius: 5px;
+    padding: 2rem;
+}
+.flight_location {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0 3rem;
+}
+.departure {
+    text-align: left;
+}
+.departure h1 {
+    color: rgb(80, 125, 221);
+    font-size: 45px;
+    font-weight: 900;
+}
+.departure p {
+    color: rgb(182, 182, 182);
+    font-size: 14px;
+    margin-top: -0.5rem;
+}
+.to {
+    height: 5px;
+    width: 2rem;
+    background-color: rgb(192, 223, 235);
+    border: none;
+}
+.arrival {
+    text-align: right;
+}
+.arrival h1 {
+    color: rgb(80, 125, 221);
+    font-size: 45px;
+    font-weight: 900;
+}
+.arrival p {
+    color: rgb(182, 182, 182);
+    font-size: 14px;
+    margin-top: -0.5rem;
+}
+.passenger_info {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.passenger_info h3 {
+    color: rgb(182, 182, 182);
+    font-size: 11px;
+}
+.passenger_info p {
+    color: black;
+    font-weight: 600;
+    margin-top: 0.2rem;
+}
+.flight_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 2rem;
+}
+.flight_info h3 {
+    color: rgb(182, 182, 182);
+    font-size: 11px;
+    margin-top: 1rem;
+
+}
+.flight_info p {
+    color: black;
+    font-weight: 600;
+    margin-top: 0.2rem;
+}
+.flight_info div img {
+    width: 140px;
+    height: 140px;
+}
